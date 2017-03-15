@@ -18,7 +18,7 @@ from django.contrib import admin
 from ecologic import views
 
 urlpatterns = [
-    url(r'^ecologic/', include('polls.urls')),
+    url(r'^ecologic/', include('ecologic.urls')),
     url(r'^admin/', admin.site.urls),
 ]
 
