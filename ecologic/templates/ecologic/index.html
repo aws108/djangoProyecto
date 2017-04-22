@@ -1,0 +1,25 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'ecologic/style.css' %}" />
+<h1>{{categoria.nombre}}</h1>
+<p>{{Producto.nombre}}</p>
+<!--
+{% if ultima_publicacion %}
+    <ul>
+    {% for question in ultima_publicacion %}
+        <li><a href="/ecologic/{{ categoria.id }}/">{{ categoria.nombre }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No tenemos productos disponibles.</p>
+{% endif %}
+
+________________________________
+<h1>{{ object.name }}</h1>
+<p>{{ object.description }}</p>
+<p>Price: ${{ object.price_in_dollars }}</p>
+<hr/>
+<p><a href="{% url product_list %}">Back to product list</a></p>
+_____________________________________
+
+-->
